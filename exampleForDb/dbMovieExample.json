@@ -1,0 +1,18 @@
+{
+  "genres": ["Short"],
+  "actors": [
+    { "actor_id": "1", "name": "Charles Kayser" },
+    { "actor_id": "2", "name": "John Ott" }
+  ],
+  "title": "Blacksmith Scene",
+  "fullplot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
+  "released": "1893-05-09T00:00:00.000Z",
+  "directors": ["William K.L. Dickson"],
+  "lastupdated": "2021-10-26T22:00:00.000Z",
+  "year": 1893,
+  "imdb": {
+    "rating": 6.2,
+    "votes": 1189,
+    "id": 5
+  }
+}

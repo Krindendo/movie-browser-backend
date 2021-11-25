@@ -1,0 +1,534 @@
+{
+    "actors": [
+        {
+            "_id": "617db671047e122e4644e9df",
+            "name": "Miloš Biković",
+            "movies": [
+                {
+                    "movie_id": "617c2d133392539ceade6315",
+                    "title": "Montevideo, Bog te video"
+                },
+                {
+                    "movie_id": "617c4c433392539ceade6317",
+                    "title": "Južni vetar"
+                },
+                {
+                    "movie_id": "617c68c23392539ceade6331",
+                    "title": "Montevideo, vidimo se!"
+                }
+            ],
+            "born_date": "1988-01-13T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Milos_Bikovic_2019.jpg/1920px-Milos_Bikovic_2019.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Miloš Biković je rođen 13. januara 1988. u Beogradu od oca Milana i majke Marije. Ima 16 godina starijeg brata Mihaila Bikovića, igumana Manastira Jovanja.[1] Kada je bio veoma mlad roditelji su mu se razveli, a njegov otac se preselio u Nemačku.[2] Završio je četrnaestu beogradsku gimnaziju, govori srpski, engleski i ruski jezik.[3] Pohađao je školu glume Snežane i Nenada Nenadovića i školu glume i govora DADOV. Diplomirao je na Fakultetu dramskih umetnosti u klasi Dragana Petrovića zajedno sa Ninom Janković, Jelisavetom Orašanin, Tamarom Dragičević, Anjom Alač."
+        },
+        {
+            "_id": "617db6ec047e122e4644e9e2",
+            "name": "Petar Strugar",
+            "movies": [
+                {
+                    "movie_id": "617c2d133392539ceade6315",
+                    "title": "Montevideo, Bog te video"
+                },
+                {
+                    "movie_id": "617c68c23392539ceade6331",
+                    "title": "Montevideo, vidimo se!"
+                }
+            ],
+            "born_date": "1988-05-23T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Petar_Strugar.jpg/1920px-Petar_Strugar.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Petar Strugar (Cetinje, 23. maj 1988) crnogorski i srpski je glumac i voditelj. Postao je poznat po ulozi Blagoja Marjanovića „Moše“ u filmu Dragana Bjelogrlića „Montevideo, Bog te video!“ i njegova dva nastavka."
+        },
+        {
+            "_id": "617db722047e122e4644e9e5",
+            "name": "Nina Janković Dičić",
+            "movies": [
+                {
+                    "movie_id": "617c2d133392539ceade6315",
+                    "title": "Montevideo, Bog te video"
+                }
+            ],
+            "born_date": "1988-04-20T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Nina01.jpg/800px-Nina01.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Nina Janković Dičić rođena je u Šapcu, 20. aprila 1988. godine. Završila je Srednju umetničku školu u Šapcu, a zatim i Fakultet dramskih umetnosti u Beogradu, u klasi profesora Dragana Petrovića Peleta. Ninin diplomski rad je bila predstava \"Greta strana 89\". Na trećoj godini studija debituje u filmu \"Montevideo, bog te video!\" Dragana Bjelogrlića. Za ulogu u ovom filmu dobila je nagradu \" MTV Movie Award\" za najbolju glumicu. Nina po mišljenju mnogih važi za jednu od najboljih glumica mlađe generacije, a i mnogi je smatraju jednom od najlepših Srpkinja."
+        },
+        {
+            "_id": "617dbe60047e122e4644e9e8",
+            "name": "Dragan Bjelogrlić",
+            "movies": [
+                {
+                    "movie_id": "617c2d133392539ceade6315",
+                    "title": "Montevideo, Bog te video"
+                },
+                {
+                    "movie_id": "617c4c433392539ceade6317",
+                    "title": "Južni vetar"
+                },
+                {
+                    "movie_id": "617c68c23392539ceade6331",
+                    "title": "Montevideo, vidimo se!"
+                }
+            ],
+            "born_date": "1963-10-10T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Dragan_Bjelogrli%C4%87.jpg/1280px-Dragan_Bjelogrli%C4%87.jpg",
+            "professions": [
+                "glumac",
+                "direktor"
+            ],
+            "biography": "Prvu ulogu dobio je 1978. godine, u filmu Boško Buha, da bi osamdesetih započeo njegov konstantni uspon u jugoslovenskoj kinematografiji, prvenstveno zahvaljujući TV seriji Bolji život, gde je igrao buntovnog Slobodana Bobu Popadića. Tokom devedesetih ostvario je veliki uspeh glumeći uglavnom u filmovima ratne tematike, kao što su Crni bombarder, Lepa sela lepo gore, Rane i Nebeska udica, ali i zahvaljujući mjuziklu Hajde da se volimo 3. I u novom milenijumu stvara upečatljive uloge u filmovima Sivi kamion crvene boje i Ivkova slava, kao i u TV seriji Vratiće se rode."
+        },
+        {
+            "_id": "617e44d8b626ba13c4b768cb",
+            "name": "Danilo Bata Stojković",
+            "movies": [
+                {
+                    "movie_id": "617c68e33392539ceade6333",
+                    "title": "Balkanski špijun"
+                },
+                {
+                    "movie_id": "617c6b9b3392539ceade6335",
+                    "title": "Maratonci trče počasni krug"
+                },
+                {
+                    "movie_id": "617c70e73392539ceade633b",
+                    "title": "Ko to tamo peva"
+                }
+            ],
+            "born_date": "1934-08-11T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Danilo_Stojkovi%C4%87_2007_Serbian_stamp.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Bata je rođen u Beogradu 11. avgusta 1934. godine u porodici Alekse Stojkovića, uglednog predratnog veletrgovca drvima i ugljem. Odrastao je na Čuburi, uz rođenog brata Žiku, potonjeg poznatog beogradskog intelektualca i publicistu. Živeo je u Beogradu sa suprugom Olgom."
+        },
+        {
+            "_id": "617e4655b626ba13c4b768ce",
+            "name": "Lazar Ristovski",
+            "movies": [
+                {
+                    "movie_id": "617c50003392539ceade6319",
+                    "title": "Kralj Petar Prvi"
+                },
+                {
+                    "movie_id": "617c59e33392539ceade6325",
+                    "title": "Dnevnik mašinovođe"
+                }
+            ],
+            "born_date": "1952-10-26T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Lazar_Ristovski_Portret.JPG",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Ristovski je rođen 26. oktobra 1952. godine u Ravnom Selu. Njegov otac je makedonski doseljenik iz prilepskog sela Guđakovo a majka iz Crne Gore. Završio je Učiteljsku školu u Somboru, a glumu diplomirao na Fakultetu dramskih umetnosti u Beogradu, u klasi Ognjenke Milićević, zajedno sa Bogdanom Diklićem, Snežanom Savić, Ljiljanom Stjepanović i Radošem Bajićem."
+        },
+        {
+            "_id": "617e5312b626ba13c4b768d1",
+            "name": "Aleksandar Berček",
+            "movies": [
+                {
+                    "movie_id": "617c54153392539ceade631b",
+                    "title": "Krugovi"
+                }
+            ],
+            "born_date": "1950-09-04T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Bercek.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Diplomirao je glumu na Akademiji za pozorište, film, radio i televiziju. Ostvario je uloge u preko 40 filmova i u brojnim pozorišnim predstavama.\nBio je upravnik Narodnog pozorišta u Beogradu od 21. januara 1993. do 10. maja 1997. godine, tokom vladavine Socijalističke partije Srbije."
+        },
+        {
+            "_id": "617e58b3b626ba13c4b768d4",
+            "name": "Snežana Bogdanović",
+            "movies": [
+                {
+                    "movie_id": "617c54373392539ceade631d",
+                    "title": "Šavovi"
+                }
+            ],
+            "born_date": "1960-11-05T00:00:00.000Z",
+            "image": "",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Dobitnica je „Zlatne arene” za najbolju glavnu žensku ulogu u Puli za ulogu u filmu Kuduz 1989. godine.\nGodine 1992. sa Branislavom Lečićem dobila je nagradu za glumački par godine na dvadeset sedmom filmskom festivalu u Nišu."
+        },
+        {
+            "_id": "617e599ab626ba13c4b768d8",
+            "name": "Mirjana Karanović",
+            "movies": [
+                {
+                    "movie_id": "617c56663392539ceade6321",
+                    "title": "Rekvijem za gospođu J."
+                },
+                {
+                    "movie_id": "617c57fa3392539ceade6323",
+                    "title": "Dobra žena"
+                }
+            ],
+            "born_date": "1957-01-28T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mirjana_Karanovi%C4%87.jpg/1920px-Mirjana_Karanovi%C4%87.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Mirjana Karanović je rođena u Beogradu 28. januara 1957. godine. Glumu je diplomirala na Fakultetu dramskih umetnosti u Beogradu 1984. godine, na klasi profesora Milenka Maričića, zajedno sa Ljiljanom Blagojević, Merimom Isaković i Mimom Karadžićem Na filmu je debitovala 1980. godine naslovnom ulogom u filmu Srđana Karanovića Petrijin venac. Svetsku slavu je stekla ulogom majke u filmu Emira Kusturice Otac na službenom putu."
+        },
+        {
+            "_id": "617e59e4b626ba13c4b768db",
+            "name": "Boris Isaković",
+            "movies": [
+                {
+                    "movie_id": "617c57fa3392539ceade6323",
+                    "title": "Dobra žena"
+                }
+            ],
+            "born_date": "1966-12-14T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/9/9b/Boris_isakovic.jpg/800px-Boris_isakovic.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Bio je stalni član i prvak drame Srpskog narodnog pozorišta u Novom Sadu. Od 2000. godine je samostalni umetnik, a od 2012. godine je direktor drame Srpskog narodnog pozorišta.\nOstvario brojne uloge u Srpskom narodnom pozorištu u Novom Sadu, ali igra i u gotovo svim pozorištima u Beogradu. Glumi i na filmu i televiziji.\nBavi se pedagoškim radom. Profesor je glume na Akademiji umetnosti u Novom Sadu."
+        },
+        {
+            "_id": "617e5a40b626ba13c4b768de",
+            "name": "Hristina Popović",
+            "movies": [
+                {
+                    "movie_id": "617c57fa3392539ceade6323",
+                    "title": "Dobra žena"
+                }
+            ],
+            "born_date": "1982-03-26T00:00:00.000Z",
+            "image": "",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Hristina Popović je rođena 26. marta 1982. godine u Beogradu, u porodici majke balerine, koreografkinje i glumice Sonje Vukićević i oca dr Branislava Popovića. Studirala je glumu na Fakultetu dramskih umetnosti Univerziteta umetnosti u Beogradu u klasi profesorke Mirjane Karanović i Univerzitetu Braća Karić, a prethodno je upisala nemački jezik na Filološkom fakultetu."
+        },
+        {
+            "_id": "617e62d5b626ba13c4b768e1",
+            "name": "Katarina Radivojević",
+            "movies": [
+                {
+                    "movie_id": "617c5bae3392539ceade6327",
+                    "title": "Zona Zamfirova"
+                }
+            ],
+            "born_date": "1979-03-29T00:00:00.000Z",
+            "image": "",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Osnovnu školu je završila u Batajnici, a onda pohađala Dvanaestu beogradsku gimnaziju pa kasnije Petu beogradsku gimnaziju [1]. Osnove glume uči u dramskoj grupi Mike Aleksića, iako u tome nije imala podršku roditelja. Njen prvi susret sa kamerom bila je uloga Sonje u filmu Policajac sa Petlovog brda, gde igra pored velikana jugoslovenskog filma Ljubiše Samardžića, Milene Dravić, Nede Arnerić... Seriju pod istim nazivom snima sve do 1994. godine. Već tada je odlučila da će gluma biti njen životni poziv. Kao srednjoškolka važila je za izuzetno nepredvidivu i nedisciplinovanu devojku. Redovno beži sa časova tokom demonstracija 1997. godine, pa ponavlja razred. Posle svih padova i traženja sebe, nakon bombardovanja upisuje Fakultet dramskih umetnosti u Beogradu. Na prijemnom ispitu prva je na listi, zajedno sa Marijom Vicković, koja joj postaje najbolja prijateljica."
+        },
+        {
+            "_id": "617e64beb626ba13c4b768e4",
+            "name": "Dimitrije Vojnov",
+            "movies": [
+                {
+                    "movie_id": "617c5d1a3392539ceade6329",
+                    "title": "Tito i ja"
+                }
+            ],
+            "born_date": "1981-08-29T00:00:00.000Z",
+            "image": "",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Urednik je filmskog bloga „Doba nevinosti“, posvećenog kritici i praćenju srpskog filma.\nOstao je upamćen po ulozi dečaka Zorana u filmu „Tito i ja“."
+        },
+        {
+            "_id": "617e659eb626ba13c4b768eb",
+            "name": "Zoran Cvijanović",
+            "movies": [
+                {
+                    "movie_id": "617c687e3392539ceade632b",
+                    "title": "Munje!"
+                }
+            ],
+            "born_date": "1971-11-26T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Zoran_C_and_Nata%C5%A1a_N_._Laslovarga.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Diplomirao je na Fakultetu dramskih umetnosti u Beogradu 1982, u klasi profesora Minje Dedića i asistenta Vladimira Jevtovića.[1] Prva uloga nakon studija bila mu je u TV seriji „Sivi dom“ (1984—1985). Do danas je glumio u preko 50 filmova i TV serija, od kojih su najznačajniji: „Oktoberfest“ (1987), „Poltron“ (1989), „Mi nismo anđeli“ (1992), „Policajac sa Petlovog brda“ (TV serija) (1993—1994), „Otvorena vrata“ (TV serija) (1995), „Složna braća“ (TV serija) (1995), „Lepa sela lepo gore“ (1996), „Mile protiv tranzicije“ (TV serija) (2003)."
+        },
+        {
+            "_id": "617e666ab626ba13c4b768ee",
+            "name": "Monika Beluči",
+            "movies": [
+                {
+                    "movie_id": "617c689f3392539ceade632d",
+                    "title": "Na mlečnom putu"
+                }
+            ],
+            "born_date": "1964-09-30T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Monica_Bellucci_Prix_Lumi%C3%A8res_2018.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Monika Ana Marija Beluči (ital. Monica Anna Maria Bellucci; Čita di Kastelo, 30. septembar 1964) italijanska je glumica i manekenka, koja je karijeru najpre započela kao model, a kasnije i glumeći u italijanskim filmovima. Veoma brzo se probila do Holivuda zahvaljujući svom atraktivnom izgledu, svojom senzualnošću i lepotom.\n\nU karijeri je glumila u nekoliko ostvarenja koja su doživela veliki internacionalni uspeh, poput filmova Drakula, Malena, The Matrix Reloaded, Stradanje Hristovo, Spektra, Pakt sa vukovima i Na mlečnom putu. U serijalu filmova o Džejmsu Bondu bila je najstarija Bondova devojka; glumila je u filmu Spektra iz 2015. godine. Dana 25. aprila 2005. godine, u muzeju Greven u Parizu, otkrivena je voštana figura s njenim likom. Bila je članica žirija na Filmskom festivalu u Kanu 2006. godine. Nagrađena je ordenom Legije časti, najvišim priznanjem koje uručuje država Francuska."
+        },
+        {
+            "_id": "617e670db626ba13c4b768f1",
+            "name": "Emir Kusturica",
+            "movies": [
+                {
+                    "movie_id": "617c689f3392539ceade632d",
+                    "title": "Na mlečnom putu"
+                }
+            ],
+            "born_date": "1954-11-24T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Emir_kusturica_72_9643.jpg/800px-Emir_kusturica_72_9643.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Emir Kusturica (Sarajevo, 24. novembar 1954) je srpski i jugoslovenski reditelj, scenarista, muzičar, graditelj i književnik. Za svoje kratke filmove nagrađivan je još u srednjoj školi. Filmsku režiju završio je na Filmskoj akademiji u Pragu (FAMU). Dvostruki je dobitnik Zlatne palme filmskog festivala u Kanu, za filmove Otac na službenom putu i Podzemlje. Nosilac je nekoliko odlikovanja i nagrada, uključujući „Orden Viteza reda umetnosti i književnosti“ i zvanja nacionalnog ambasadora UNICEF-a u Srbiji."
+        },
+        {
+            "_id": "617e674db626ba13c4b768f4",
+            "name": "Sloboda Mićalović",
+            "movies": [
+                {
+                    "movie_id": "617c689f3392539ceade632d",
+                    "title": "Na mlečnom putu"
+                }
+            ],
+            "born_date": "1981-08-21T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sloboda_Mi%C4%87alovi%C4%87_TV_Na%C5%A1a.png",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Sloboda Mićalović Ćetković (Leskovac, 21. avgust 1981) srpska je filmska i pozorišta glumica.\nZavršila je srednju muzičku školu, a studirala Fakultet dramskih umetnosti u Beogradu u klasi Predraga Bajčetića. Publika je pamti po ulogama u mjuziklima Pozorišta na Terazijama, a stalni pozorišni angažman dobila je 2012. godine u Narodnom pozorištu u Beogradu.\nPrvu bitnu pozorišnu ulogu imala je tokom studiranja 2000. godine, Borisava Stankovića u režiji Juga Radivojevića. Publika je pamti i po ulogama u predstavama Tartif kao Elmira, Čikago kao Roksi Hart, Frenki i Džoni kao Frenki i mnogim drugim."
+        },
+        {
+            "_id": "617e6e48b626ba13c4b768f7",
+            "name": "Nikola Kojo",
+            "movies": [
+                {
+                    "movie_id": "617c68b23392539ceade632f",
+                    "title": "Mi nismo anđeli 2"
+                },
+                {
+                    "movie_id": "617c71e33392539ceade633d",
+                    "title": "Četvrti čovek"
+                }
+            ],
+            "born_date": "1967-09-05T00:00:00.000Z",
+            "image": "https://upload.wikimedia.org/wikipedia/sr/1/13/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9A%D0%BE%D1%98%D0%BE.jpg",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Ime Nikola je dobio po pradedi, koji je bio protojerej u Mostaru. Kojo je na filmu debitovao sa nepunih 13 godina, ulogom dečaka Ivana u filmu Rad na određeno vreme. Tokom 1980-ih, odigrao je zapažene uloge u filmu \"Igmanski marš\" (1983), TV seriji \"Sivi dom\" (1984), i jednu od glavnih uloga u tri nastavka (\"Šta se zgodi kad se ljubav rodi\" - 1984, \"Žikina dinastija\" - 1985, \"Druga Žikina dinastija\" - 1986) veoma popularnog filmskog serijala \"Lude godine\", što ga je profilisalo u jednog od najpoznatijih glumaca mlađe generacije u tadašnjoj Jugoslaviji.\nGodine 1992. odigrao je glavnu ulogu u filmu Srđana Dragojevića „Mi nismo anđeli“, po kojoj ostaje zapažen. Iako mu je sve to donelo ogromnu popularnost i veliku medijsku pažnju, nastavio je da sa sve većim uspehom gradi ozbiljnije i izazovnije uloge, poslednjih godina uglavnom na filmu, jer se iz pozorišta povukao na neodređeno vreme."
+        },
+        {
+            "_id": "617e7211b626ba13c4b768fa",
+            "name": "Marija Karan",
+            "movies": [
+                {
+                    "movie_id": "617c71e33392539ceade633d",
+                    "title": "Četvrti čovek"
+                }
+            ],
+            "born_date": "1982-09-29T00:00:00.000Z",
+            "image": "",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Rođena je u Beogradu 29. aprila 1982. godine. Kod nje je primećen glumački talenat još dok je bila devojčica. Glumom je počela da se bavi 2001. godine. Diplomirala je glumu na Fakultetu dramskih umetnosti u Beogradu. Studirala je zajedno sa glumcima: Kalina Kovačević, Nada Macanković, Ana Marković i Nikola Rakočević. Popularnost je stekla 2004. godine, ulogom Marije Stanimirović u filmu Jesen stiže, Dunjo moja. Nastavila je s ulogama u popularnim filmovima Kad porastem biću Kengur i Sedam i po, kao i serijama Ljubav, navika, panika (2005), koju je napustila 2006. godine (zamenila ju je Borka Tomović). 2007. godine je glumila u jednom od najuspešnijih srpskih filmova te godine, Četvrti čovek. Pored glume, velika strast su joj odbojka, stoni tenis i fitnes-biciklizam."
+        },
+        {
+            "_id": "617e7597b626ba13c4b768fd",
+            "name": "Miodrag Radonjić",
+            "movies": [
+                {
+                    "movie_id": "617c4c433392539ceade6317",
+                    "title": "Južni vetar"
+                }
+            ],
+            "born_date": "1989-05-03T00:00:00.000Z",
+            "image": "",
+            "professions": [
+                "glumac"
+            ],
+            "biography": "Radonjić je rođen 3. maja 1989. godine u Beogradu. Fakultet dramskih umetnosti u Beogradu upisao je sa osamnaest godina u klasi profesora Dragana Petrovića, a diplomirao 2015. godine na odseku za glumu. Prve uloge u pozorištu ostvario je tokom studiranja, a na filmu je debitovao 2010. godine u komediji Nova šansa.\nŠiroj javnosti poznat je nakon uloge u filmu Južni vetar i istoimenoj seriji gde tumači ulogu Baće, ulozi Zorana Janketića u seriji Ubice mog oca, kao i po ulogama u filmovima Balkanska međa i Hotel Beograd."
+        },
+        {
+            "professions": [],
+            "_id": "617e7884b626ba13c4b76900",
+            "name": "Boris Milivojević",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c687e3392539ceade632b",
+                    "title": "Munje!"
+                }
+            ],
+            "born_date": "1971-11-26T00:00:00.000Z",
+            "biography": "Pozajmio je glas mačku u čizmama u sinhronizaciji filma Šrek (poslednje poglavlje – „Srećan zauvek“) 2010. godine.\nTakođe je bio učesnik prve sezone muzičkog šoua „Tvoje lice zvuči poznato“. Voditelj je kviza „Zlatni krug“.",
+            "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/8/86/Boki.jpg/800px-Boki.jpg"
+        },
+        {
+            "professions": [],
+            "_id": "617e79efb626ba13c4b76903",
+            "name": "Mirka Vasiljević",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c68b23392539ceade632f",
+                    "title": "Mi nismo anđeli 2"
+                }
+            ],
+            "born_date": "1990-09-27T00:00:00.000Z",
+            "biography": "Mirka Vasiljević (Beograd, 27. septembar 1990) srpska je glumica i model.\nNevenčana je supruga fudbalera Vujadina Savića sa kojim ima sinove Andreja i Mihajla i ćerke Adrijanu i Aniku.",
+            "image": ""
+        },
+        {
+            "professions": [],
+            "_id": "617e7a2fb626ba13c4b76906",
+            "name": "Srđan Todorović",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c68b23392539ceade632f",
+                    "title": "Mi nismo anđeli 2"
+                }
+            ],
+            "born_date": "1965-03-28T00:00:00.000Z",
+            "biography": "Završio je glumu na Fakultetu dramskih umetnosti u Beogradu, a jedno vreme se paralelno bavio glumom i muzikom. Redovni je član žirija popularnog takmičenja talenata Ja imam talenat. Oženjen je Anom i imao je sina Dejana koji je preminuo u svojoj trećoj godini.",
+            "image": ""
+        },
+        {
+            "professions": [],
+            "_id": "617e7adeb626ba13c4b76909",
+            "name": "Viktor Savić",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c68c23392539ceade6331",
+                    "title": "Montevideo, vidimo se!"
+                }
+            ],
+            "born_date": "1983-09-13T00:00:00.000Z",
+            "biography": "Studirao je glumu zajedno sa Borkom Tomović, Katarinom Marković i Janom Milić. Pored glume bavi se i repovanjem, pod pseudonimom Njezz.",
+            "image": "https://upload.wikimedia.org/wikipedia/sr/thumb/9/92/Viktor_savic.jpg/800px-Viktor_savic.jpg"
+        },
+        {
+            "professions": [],
+            "_id": "617e7b71b626ba13c4b7690c",
+            "name": "Bora Todorović",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c68e33392539ceade6333",
+                    "title": "Balkanski špijun"
+                },
+                {
+                    "movie_id": "617c6df43392539ceade6337",
+                    "title": "Profesionalac"
+                },
+                {
+                    "movie_id": "617c6fa73392539ceade6339",
+                    "title": "Sveti Georgije ubiva aždahu"
+                }
+            ],
+            "born_date": "1929-11-05T00:00:00.000Z",
+            "biography": "Rođen je 5. novembra 1929. godine u profesorskoj porodici u Beogradu. Napustio je Mašinski fakultet u Beogradu da bi upisao Pozorišnu akademiju 1949. godine. Studirao je u klasi profesora Joza Laurenčića. Klasni drugovi su mu bili Ljuba Tadić, Marko Todorović, Slobodan Cica Perović i drugi.",
+            "image": "https://upload.wikimedia.org/wikipedia/sr/0/09/Borivoje_Todorovic.jpg"
+        },
+        {
+            "professions": [],
+            "_id": "617e7bc6b626ba13c4b7690f",
+            "name": "Bogdan Diklić",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c6b9b3392539ceade6335",
+                    "title": "Maratonci trče počasni krug"
+                }
+            ],
+            "born_date": "1953-08-01T00:00:00.000Z",
+            "biography": "U rodnom gradu amaterski se bavio glumom. U Bjelovaru je završio osnovnu i srednju školu. Godine 1972. upisao je glumu na Fakultetu dramskih umetnosti u Beogradu u klasi Ognjenke Milićević.\nPostao je popularan nakon zapažene uloge u filmu „Nacionalna klasa“ (1979). Igrao je i u filmovima „Majstori, majstori“ (1980), „Variola vera“ (1982), „Maratonci trče počasni krug“ (1982), „Čudo neviđeno“ (1984), „Oktoberfest“ (1987), „Sabirni centar“ (1989), „Tri karte za Holivud“ (1993), „Lajanje na zvezde“ (1998), „Bure baruta“ (1999), Mali svet“ (2003)\nNa televiziji je glumio u serijama: „Grlom u jagode“ (1976), „Sijamci“ (1981), „Kamiondžije 2“ (1983), „Brisani prostor“ (1985), „Balkan ekspres“ (1989), „Otvorena vrata“ (1995).",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Bogdan_Dikli%C4%87.jpg/800px-Bogdan_Dikli%C4%87.jpg"
+        },
+        {
+            "professions": [],
+            "_id": "617e7c35b626ba13c4b76912",
+            "name": "Pavle Vuisić",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c6b9b3392539ceade6335",
+                    "title": "Maratonci trče počasni krug"
+                },
+                {
+                    "movie_id": "617c70e73392539ceade633b",
+                    "title": "Ko to tamo peva"
+                }
+            ],
+            "born_date": "1926-07-10T00:00:00.000Z",
+            "biography": "Rođen je 10. jula 1926. godine. Učesnik je borbi na Sremskom frontu. Živeo je u Beogradu sa suprugom Mirjanom.\nNjegov mlađi brat Dušan Vujisić je bio takođe glumac.\nStudirao je pravo i sve do početka 1950-ih ogledao se u novinarstvu (Radio Beograd). Nepunu sezonu glumio je u Pančevačkom pozorištu, istovremeno je statirao na filmu Čudotvorni mač (1950) Voje Nanovića i bezuspešno pokušao da se upiše na Akademiju.\nSnimio je veliki broj filmova i televizijskih serija. Nije imao formalnog glumačkog obrazovanja.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pavle_Vuisi%C4%87.jpg"
+        },
+        {
+            "professions": [],
+            "_id": "617e7c98b626ba13c4b76915",
+            "name": "Branislav Lečić",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c6df43392539ceade6337",
+                    "title": "Profesionalac"
+                },
+                {
+                    "movie_id": "617c6fa73392539ceade6339",
+                    "title": "Sveti Georgije ubiva aždahu"
+                }
+            ],
+            "born_date": "1955-08-25T00:00:00.000Z",
+            "biography": "Rođen je u Šapcu od oca Aleksandra i majke Živane kao jedinac.\nDiplomirao je glumu na Fakultetu dramskih umetnosti u Beogradu 1978. godine u klasi profesora Minje Dedića. Svojom debitantskom ulogom Fikreta u filmu „Specijalno vaspitanje“ (1977) Gorana Markovića, postavlja parametre za dalje tumačenje neprilagođenih osoba. Posebno se ističe odlučnim, beskompromisnim likovima, čvrsto uverenim u ispravnost svojih postupaka. Veoma zapaženu i istaknutu ulogu ostvario je u TV seriji „Sivi dom“ (1984), režisera Darka Bajića. Vrlo je uspešan i u pozorištu, za šta je bio višestruko nagrađivan. Jedan je od osnivača najznačajnijih alternativnih pozorišnih grupa koje su bitno uticale na pozorišni život u zemlji. Član je Jugoslovenskog dramskog pozorišta od 1980. godine.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Branislav_Le%C4%8Di%C4%87_2020.png"
+        },
+        {
+            "professions": [],
+            "_id": "617e7cedb626ba13c4b76918",
+            "name": "Dragan Nikolić",
+            "profession": [
+                "glumac"
+            ],
+            "movies": [
+                {
+                    "movie_id": "617c70e73392539ceade633b",
+                    "title": "Ko to tamo peva"
+                }
+            ],
+            "born_date": "1943-08-20T00:00:00.000Z",
+            "biography": "Rođen je 20. avgusta 1943. u Beogradu, u porodici Dušana (poreklom iz Berana) i majke Jelene (poreklom iz Jagodine). Nikolićevi preci su se u prošlosti prezivali Živkovići, ali je njegov deda Radonja promenio porodično prezime po pradedi Nikoli. Njegovo kršteno ime je Dragoslav međutim tokom celog života bio je poznat kao Dragan zbog jednog nesporazuma. Stariji brat mu se zvao Miroslav i on mu je bio uzor. Odrastao je na Crvenom krstu. Nakon završene osnovne škole upisao je Četrnaestu beogradsku gimnaziju koju nije završio jer se prebacio u Drugu ekonomsku školu. Posle dve godine provedene u srednjoj školi polagao je i položio prijemni ispit na Akademiji za pozorište, film, radio i televiziju i tada kao sedamnaestogodišnjak bio najmlađi student. Diplomirao je na Fakultetu dramskih umetnosti u Beogradu.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Dragan_Nikoli%C4%87.jpg/1280px-Dragan_Nikoli%C4%87.jpg"
+        }
+    ]
+}

@@ -1,0 +1,601 @@
+{
+    "movies": [
+        {
+            "_id": "617c2d133392539ceade6315",
+            "genres": [
+                "Drama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Miloš Biković"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Petar Strugar"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Nina Janković Dičić"
+                }
+            ],
+            "title": "Montevideo, Bog te video",
+            "fullplot": "Glavna nit filma je smeštena pred istorijski uspeh reprezentacije Jugoslavije u Montevideu 1930. godine na prvom svetskom prvenstvu u fudbalu i igranje u polufinalu, kao i ličnosti mladih fudbalera, koji su svojim entuzijazmom i talentom doprineli odlasku na ovo veliko svetsko takmičenje.",
+            "released": "2010-12-20T00:00:00.000Z",
+            "directors": [
+                "Dragan Bjelogrlić"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2010,
+            "imdb": {
+                "rating": 8.2,
+                "votes": 12000,
+                "id": "tt1634013"
+            }
+        },
+        {
+            "_id": "617c4c433392539ceade6317",
+            "genres": [
+                " kriminalistički triler"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Miloš Biković"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Dragan Bjelogrlić"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Miodrag Radonjić"
+                }
+            ],
+            "title": "Južni vetar",
+            "fullplot": "Iako u svakom smislu izuzetno povoljan i potencijalno veoma isplativ, geostrateški položaj Srbije tokom istorije prouzrokovao je mnogo više negativnog za ljude koji su živeli na ovom prostoru. Tokom poslednjih par decenija, ovakav položaj uslovio je da se Srbija, „raskrsnica puteva“, i definitivno nađe na takozvanom „putu droge“, koji Bliski istok spaja sa Evropom. Postoji bezbroj verzija na koji droga, najteža bolest savremenog društva, može da utiče na živote ljudi, kako onih direktno vezanih za nju, kriminalaca i zavisnika, tako i onih koji igrom slučaja bivaju upleteni u ovu „igru“.",
+            "released": "2018-08-25T22:00:00.000Z",
+            "directors": [
+                "Miloš Avramović"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2018,
+            "imdb": {
+                "rating": 8.1,
+                "votes": 11000,
+                "id": "tt5207158"
+            }
+        },
+        {
+            "_id": "617c50003392539ceade6319",
+            "genres": [
+                "drama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Lazar Ristovski"
+                }
+            ],
+            "title": "Kralj Petar Prvi",
+            "fullplot": "Po istinitoj priči o srpskom kralju Petru Karađorđeviću, smeštenoj tokom Prvog svetskog rata. Iako pobednici prve dve bitke, srpska vojska, desetkovana i gladna, mora da se povuče preko ledenih albanskih planina. Kralju Petru se čini da je sve izgubljeno, sve dok ne nađe utehu u zavetu koji daje majci jednog vojnika: pronaći će njenog sina među izgubljenim vojnicima i dati mu par čarapa koji mu je majka napravila",
+            "released": "2018-08-25T22:00:00.000Z",
+            "directors": [
+                "Milovan Vitezović"
+            ],
+            "lastupdated": "2021-10-29T22:00:00.000Z",
+            "year": 2018,
+            "imdb": {
+                "rating": 6.9,
+                "votes": 1600,
+                "id": "tt8161166"
+            }
+        },
+        {
+            "_id": "617c54153392539ceade631b",
+            "genres": [
+                "antiratna melodrama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Aleksandar Berček"
+                }
+            ],
+            "title": "Krugovi",
+            "fullplot": "Tri paralelene priče odvijaju se u Beogradu, Nemačkoj i Trebinju danas, prateći likove koji su kao svedoci događaja iz prošlosti, motivisani da donose odluke koje će im promeniti živote. Nebojša, svedok događaja u kom je stradao njegov najbolji prijatelj, prevazilazi grižu savesti suočavajući se sa ubicom svoga prijatelja, Haris, koji život duguje junaku koji se žrtvovao za njega, dug vraća rizikujući sve i pomažući ugroženoj ženi, dok sin jednog od ubica u susretu sa ocem stradalog heroja otvara put za prevazilaženje tragične prošlosti.",
+            "released": "2013-02-25T22:00:00.000Z",
+            "directors": [
+                "Srđan Golubović"
+            ],
+            "lastupdated": "2021-10-29T22:00:00.000Z",
+            "year": 2013,
+            "imdb": {
+                "rating": 7.8,
+                "votes": 4900,
+                "id": "tt1839522"
+            }
+        },
+        {
+            "_id": "617c54373392539ceade631d",
+            "genres": [
+                "drama",
+                "triler"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Snežana Bogdanović"
+                }
+            ],
+            "title": "Šavovi",
+            "fullplot": "Film je zasnovan na istinitim događajima - krađa beba iz porodilišta, lažne smrti, njihova prodaja, prevarene majke i uništene porodice, pokidani šavovi... Scenario za film inspirisan je svedočenjem beogradske krojačice Drinke Radonjić koja je skoro dve decenije tražila svog mrtvog sina.",
+            "released": "2019-03-01T22:00:00.000Z",
+            "directors": [
+                "Miroslav Terzić"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2019,
+            "imdb": {
+                "rating": 6.6,
+                "votes": 1000,
+                "id": "tt1887935"
+            }
+        },
+        {
+            "_id": "617c56663392539ceade6321",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Mirjana Karanović"
+                }
+            ],
+            "title": "Rekvijem za gospođu J.",
+            "fullplot": "Na dan smrti zeca, svog kućnog ljubimca Gospođa J (Mirjana Karanović), skromna sredovečna žena, bivša administrativna službenica, odlučuje da sahrani svog ljubimca, opere sudove, ode u prodavnicu, pronađe stari porodični pištolj, i za 5 dana, na dan kada je umro njen muž, izvrši samoubistvo. Gospođa J je odlučila da ode do kamenoresca Đorđa i plati svoju sliku na nadgrobnom spomeniku, vrati pozajmljenu stolicu komšinici sa prvog sprata, prvi put vidi hipermarket u kojem radi njena starija ćerka Ana, koja je ne sluša i koja ima dečka Milančeta.",
+            "released": "2017-02-13T22:00:00.000Z",
+            "directors": [
+                "Bojan Vuletić"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2017,
+            "imdb": {
+                "rating": 7.2,
+                "votes": 675,
+                "id": "tt5207166"
+            }
+        },
+        {
+            "_id": "617c57fa3392539ceade6323",
+            "genres": [
+                "drama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Mirjana Karanović"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Boris Isaković"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Hristina Popović"
+                }
+            ],
+            "title": "Dobra žena",
+            "fullplot": "Nakon trideset godina braka, Milena saznaje istinu o užasnoj ratnoj prošlosti svog naizgled idealnog muža. Istovremeno otkriva da ima karcinom dojke. Milena je prisiljena da donese odluku da li će nastaviti da živi skrivajući istinu od sebe same, ili će ostaviti sve ono što je do tada stekla u životu i započeti novi život.",
+            "released": "2016-03-01T22:00:00.000Z",
+            "directors": [
+                "Mirjana Karanović"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2016,
+            "imdb": {
+                "rating": 6.7,
+                "votes": 699,
+                "id": "tt3521306"
+            }
+        },
+        {
+            "_id": "617c59e33392539ceade6325",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Lazar Ristovski"
+                }
+            ],
+            "title": "Dnevnik mašinovođe",
+            "fullplot": "Svaki mašinovođa, tokom svoje profesionalne karijere, nenamerno ubije 20-30 ljudi. Žrtve su obično samoubice, nepažljivi, pijani, ili samo odsutni ljudi. Ovo je tragična komedija o nevinim ubicama i njihovim životima.",
+            "released": "2016-09-14T22:00:00.000Z",
+            "directors": [
+                "Miloš Radović"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2016,
+            "imdb": {
+                "rating": 7.1,
+                "votes": 1100,
+                "id": "tt2948166"
+            }
+        },
+        {
+            "_id": "617c5bae3392539ceade6327",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Katarina Radivojević"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Vojin Ćetković"
+                }
+            ],
+            "title": "Zona Zamfirova",
+            "fullplot": "Film prati sudbinu junakinje Zone, čorbadžijske ćerke koja je zaljubljena u Maneta, kujundžiju. Kada tetka Doka zatraži Zoninu ruku za Maneta, on biva odbijen i na smrt povređen. Sveti se i njegova osveta direktno pogađa Zoninu reputaciju... No, ljubav zna da savlada sve prepreke i dvoje zaljubljenih nalaze načina da se spoje...",
+            "released": "2002-10-31T22:00:00.000Z",
+            "directors": [
+                "Zdravko Šotra"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2002,
+            "imdb": {
+                "rating": 7.3,
+                "votes": 4200,
+                "id": "tt0326449"
+            }
+        },
+        {
+            "_id": "617c5d1a3392539ceade6329",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Dimitrije Vojnov"
+                }
+            ],
+            "title": "Tito i ja",
+            "fullplot": "Priča o desetogodišnjaku koji, kao i sva djeca u Jugoslaviji 1950-ih godina teško može da zamisli bilo koji dio svog života bez velikog vođe nacije - maršala Tita. U svojoj školi dečak pobjeđuje na konkursu za najbolji sastav o Titu. Nagrada mu je učešće na maršu „Titovim rodnim krajem“.",
+            "released": "1992-10-31T22:00:00.000Z",
+            "directors": [
+                "Goran Marković"
+            ],
+            "lastupdated": "2021-10-29T22:00:00.000Z",
+            "year": 1992,
+            "imdb": {
+                "rating": 0,
+                "votes": 0,
+                "id": "0"
+            }
+        },
+        {
+            "_id": "617c687e3392539ceade632b",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Zoran Cvijanović"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Boris Milivojević"
+                }
+            ],
+            "title": "Munje!",
+            "fullplot": "Dvojica muzičara koji žele izdati ploču traže pomoć od školskog kolege kojeg su ismevali.",
+            "released": "2001-10-31T22:00:00.000Z",
+            "directors": [
+                "Radivoje Andrić"
+            ],
+            "lastupdated": "2021-10-29T22:00:00.000Z",
+            "year": 2001,
+            "imdb": {
+                "rating": 7.9,
+                "votes": 7000,
+                "id": "tt0279248"
+            }
+        },
+        {
+            "_id": "617c689f3392539ceade632d",
+            "genres": [
+                "drama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Monika Beluči"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Emir Kusturica"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Sloboda Mićalović"
+                }
+            ],
+            "title": "Na mlečnom putu",
+            "fullplot": "Narativ filma sastoji se iz tri dela, u kojima se prikazuju tri razdoblja u životu jednog čoveka: vreme u kome je srećni mlekadžija tokom rata, zatim njegove rizične podvige i bujajuću romansu sa ženom koju voli, kao i njegov kasniji monaški život, kada se priseća burne prošlosti, kako sopstvene, tako i svoje zemlje. Priča o ljubavi i ratu.",
+            "released": "2016-09-09T22:00:00.000Z",
+            "directors": [
+                "Emir Kusturica"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2016,
+            "imdb": {
+                "rating": 6.4,
+                "votes": 4300,
+                "id": "tt2800340"
+            }
+        },
+        {
+            "_id": "617c68b23392539ceade632f",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Nikola Kojo"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Mirka Vasiljević"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Srđan Todorović"
+                }
+            ],
+            "title": "Mi nismo anđeli 2",
+            "fullplot": "Nikolina ćerka Sofija, devojčica od 15 godina, počinje da pokazuje interesovanje za suprotni pol, dok Nikola, patološki ljubomoran otac, ulaže maksimalne napore da svoju jedinicu zaštiti od bilo kakvog muškog uticaja i ne birajući sredstva eliminiše sve potencijalne kandidate. Naravno, to nije nimalo lako, posebno što su đavo i anđeo ponovo odlučili da se opklade oko „srećnog ili nesrećnog kraja“",
+            "released": "2005-09-09T22:00:00.000Z",
+            "directors": [
+                "Srđan Dragojević"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2005,
+            "imdb": {
+                "rating": 0,
+                "votes": 0,
+                "id": "0"
+            }
+        },
+        {
+            "_id": "617c68c23392539ceade6331",
+            "genres": [
+                "drama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Miloš Biković"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Petar Strugar"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Viktor Savić"
+                }
+            ],
+            "title": "Montevideo, vidimo se!",
+            "fullplot": "Ekipa iz jedne male balkanske zemlje, kojoj svi daju minimalne šanse za uspeh, žrebanjem dobija za protivnike glavnog favorita prvenstva, reprezentaciju Brazila. Predvođeni čvrstim entuzijazmom, vizijom i idejom zajedništva, Tirke, Moša, Milutinac, Jakša i ostali momci iz tima, zahvaljujući svom talentu, mladosti i istrajnosti, ulaze na velika vrata sportske scene. Vest koja je obišla ceo svet je da je reprezentacija Jugoslavije osvojila treće mesto na Svetskom prvenstvu.",
+            "released": "2014-01-15T22:00:00.000Z",
+            "directors": [
+                "Dragan Bjelogrlić"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2014,
+            "imdb": {
+                "rating": 8.2,
+                "votes": 7000,
+                "id": "tt1801071"
+            }
+        },
+        {
+            "_id": "617c68e33392539ceade6333",
+            "genres": [
+                "drama",
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Danilo Bata Stojković"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Bora Todorović"
+                }
+            ],
+            "title": "Balkanski špijun",
+            "fullplot": "Satira govori o paranoidnom i zbunjenom Beograđaninu (Danilo Bata Stojković) koji je krivo umislio da je njegov običan podstanar zapravo terorista koji želi rušiti državu. Uz pomoć te priče film je obradio temu potrage za “nevidljivim neprijateljima” i krivim iluzijama. Pojam balkanski špijun se povremeno koristi na području bivše Jugoslavije kao sleng u smislu ismevanja nečijih besmislenih, krivo usmerenih napora.",
+            "released": "1984-02-23T22:00:00.000Z",
+            "directors": [
+                "Dušan Kovačević"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 1984,
+            "imdb": {
+                "rating": 0,
+                "votes": 0,
+                "id": "0"
+            }
+        },
+        {
+            "_id": "617c6b9b3392539ceade6335",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Bogdan Diklić"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Danilo Bata Stojković"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Pavle Vuisić"
+                }
+            ],
+            "title": "Maratonci trče počasni krug",
+            "fullplot": "Priča se događa u vremenu između dvaju ratova (1935). U familiji Topalović, koju sačinjava šest generacija muškaraca — najmlađi ima 25 godina a najstariji 120 — dolazi do velikih sukoba, jer mladi potomak ne želi da se bavi pogrebničkim zanatom, koji decenijama, s kolena na koleno, drži njegova porodica.",
+            "released": "1982-02-23T22:00:00.000Z",
+            "directors": [
+                "Slobodan Šijan"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 1982,
+            "imdb": {
+                "rating": 8.9,
+                "votes": 15000,
+                "id": "tt0084302"
+            }
+        },
+        {
+            "_id": "617c6df43392539ceade6337",
+            "genres": [
+                "drama",
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Bora Todorović"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Branislav Lečić"
+                }
+            ],
+            "title": "Profesionalac",
+            "fullplot": "Sin komuniste i policajca, do juče univerzitetski profesor, pisac, boem, pripadnik beogradske inteligencije i vatreni protivnik Miloševićevog režima, Teodor Teja Kraj (Branislav Lečić) je danas direktor jedne velike izdavačke kuće. Jednog dana u njegovu kancelariju nepozvan ulazi neobičan stranac sa velikim koferom u ruci. Taj čovek je Luka Laban (Bora Todorović), bivši agent srpske službe bezbednosti, danas taksista. Sučeljavanje ova dva čoveka je puno iznenađenja i neverovatnih obrta. Tokom upoznavanja Luke, Teja saznaje da je njegova misija poslednjih deset godina bila uhođenje Teje, pisanje izveštaja o njegovim postupcima, špijuniranje do najintimnijih trenutaka u njegovom životu.",
+            "released": "2003-02-23T22:00:00.000Z",
+            "directors": [
+                "Dušan Kovačević"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2003,
+            "imdb": {
+                "rating": 8.5,
+                "votes": 6400,
+                "id": "tt0339535"
+            }
+        },
+        {
+            "_id": "617c6fa73392539ceade6339",
+            "genres": [
+                "istorijski",
+                "melodrama"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Bora Todorović"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Branislav Lečić"
+                }
+            ],
+            "title": "Sveti Georgije ubiva aždahu",
+            "fullplot": "Radnja filma smeštena je u razdoblju od 1912. do 1914. godine u jednom srpskom seocetu na priobalju Save nadomak granice sa Austrougarskom, i prati dešavanja vezana za selo i njegove stanovnike, od bitke protiv Turaka u Prvom balkanskom ratu 1912. do izbijanja Prvog svetskog rata 1914. i presudne Cerske bitke.",
+            "released": "2009-03-11T22:00:00.000Z",
+            "directors": [
+                "Srđan Dragojević"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2009,
+            "imdb": {
+                "rating": 6.4,
+                "votes": 1700,
+                "id": "tt0906083"
+            }
+        },
+        {
+            "_id": "617c70e73392539ceade633b",
+            "genres": [
+                "komedija"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Pavle Vuisić"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Dragan Nikolić"
+                },
+                {
+                    "actor_id": "3",
+                    "name": "Danilo Bata Stojković"
+                }
+            ],
+            "title": "Ko to tamo peva",
+            "fullplot": "Dotrajalim autobusom firme „Krstić i sin“, za Beograd kreće grupa putnika. Svako od njih ima neodložne razloge da što pre stigne u prestonicu. Proleće je 1941. Dan uoči nemačkog napada na Jugoslaviju. Autobus kreće iz zabiti.",
+            "released": "1980-03-11T22:00:00.000Z",
+            "directors": [
+                "Slobodan Šijan"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 1980,
+            "imdb": {
+                "rating": 0,
+                "votes": 0,
+                "id": "0"
+            }
+        },
+        {
+            "_id": "617c71e33392539ceade633d",
+            "genres": [
+                "akcioni",
+                "avantura",
+                "misterija",
+                "romansa",
+                "triler"
+            ],
+            "actors": [
+                {
+                    "actor_id": "1",
+                    "name": "Nikola Kojo"
+                },
+                {
+                    "actor_id": "2",
+                    "name": "Marija Karan"
+                }
+            ],
+            "title": "Četvrti čovek",
+            "fullplot": "Čovek se budi iz kome nakon dva meseca sa totalnom amnezijom - ne seća se ničega što ima veze s njegovim dotadašnjim životom. Saznaje da je imao ženu i sina, koji su ubijeni kada je on ranjen. Pukovnik, koji tvrdi da mu je najbolji prijatelj, otkriva mu njegov prošli identitet. On je major Vojno-bezbednosne agencije. U njegov život se ubrzo upliće i inspektor koji tvrdi da poseduje informacije o smrti njegove porodice.",
+            "released": "2007-03-11T22:00:00.000Z",
+            "directors": [
+                "Dejan Zečević"
+            ],
+            "lastupdated": "2021-10-26T22:00:00.000Z",
+            "year": 2007,
+            "imdb": {
+                "rating": 0,
+                "votes": 0,
+                "id": "0"
+            }
+        }
+    ],
+    "count": 20
+}

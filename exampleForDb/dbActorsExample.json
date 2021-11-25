@@ -1,0 +1,14 @@
+{
+  "name": "Marko",
+  "movies": [
+    {
+      "movie_id": "1",
+      "title": "Blacksmith Scens"
+    },
+    {
+      "movie_id": "2",
+      "title": "The Great Train Robbery"
+    }
+  ],
+  "born_date": "2002-08-18T04:56:07.000Z"
+}
