@@ -1,6 +1,8 @@
-const checkPermissions = (userEmail, userEmailFromItem) => {
-  if (userEmail === userEmailFromItem) return true;
-  return false;
+const CustomError = require("../errors");
+
+const checkPermissions = (userId, userIdFromItem) => {
+  if (userId !== userIdFromItem)
+    throw new CustomError.UnauthorizedError("Forbidden");
 };
 
 module.exports = checkPermissions;

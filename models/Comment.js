@@ -9,17 +9,21 @@ const CommentSchema = new mongoose.Schema(
       maxlength: 50,
       minlength: 3,
     },
-    email: {
-      type: String,
-      required: [true, "Please provide email"],
-      validate: {
-        validator: validator.isEmail,
-        message: "Please provide valid email",
-      },
-    },
+    // email: {
+    //   type: String,
+    //   required: [true, "Please provide email"],
+    //   validate: {
+    //     validator: validator.isEmail,
+    //     message: "Please provide valid email",
+    //   },
+    // },
     movie_id: {
       type: mongoose.Schema.ObjectId,
       required: [true, "Please provide movie id"],
+    },
+    user_id: {
+      type: mongoose.Schema.ObjectId,
+      required: [true, "Please provide user id"],
     },
     text: {
       type: String,
@@ -29,11 +33,11 @@ const CommentSchema = new mongoose.Schema(
     },
     date: {
       type: Date,
-      required: [true, "Please provide date"],
+      default: Date.now,
     },
   },
   { versionKey: false }
 );
-CommentSchema.index({ movie: 1, user: 1 }, { unique: true });
+CommentSchema.index({ movie_id: 1, user_id: 1 }, { unique: true });
 
 module.exports = mongoose.model("Comment", CommentSchema);

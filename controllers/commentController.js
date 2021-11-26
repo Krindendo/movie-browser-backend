@@ -6,7 +6,15 @@ const CustomError = require("../errors");
 const { checkPermissions } = require("../utils");
 
 const createComment = async (req, res, next) => {
-  const { movie_id: movieId, email } = req.body;
+  const { movie_id: movieId, text } = req.body;
+  const { name, userId } = req.user;
+  req.body.user_id = userId;
+  req.body.name = name;
+
+  if (!movieId || !text) {
+    throw new CustomError.BadRequestError("Please provide movieId and comment");
+  }
+
   try {
     const isValidMovie = await Movie.findOne({ _id: movieId });
 
@@ -16,8 +24,9 @@ const createComment = async (req, res, next) => {
 
     const alreadySubmitted = await Comment.findOne({
       movie_id: movieId,
-      email: email,
+      user_id: userId,
     });
+    console.log("alreadySubmitted", alreadySubmitted);
     if (alreadySubmitted) {
       throw new CustomError.BadRequestError(
         "Already submitted comment for this movie"
@@ -32,7 +41,7 @@ const createComment = async (req, res, next) => {
 };
 const updateComment = async (req, res, next) => {
   const { id: commentId } = req.params;
-  const { rating, title, text } = req.body;
+
   try {
     const comment = await Comment.findOne({ _id: commentId });
 
@@ -40,12 +49,8 @@ const updateComment = async (req, res, next) => {
       throw new CustomError.NotFoundError(`No comment with id ${commentId}`);
     }
 
-    checkPermissions(req.userEmail, comment.email);
-
-    comment.rating = rating;
-    comment.title = title;
-    comment.text = text;
-
+    checkPermissions(req.user.userId, comment.user_id.toString());
+    comment.text = req.body.text;
     await comment.save();
     res.status(StatusCodes.OK).json({ comment });
   } catch (err) {
@@ -60,8 +65,7 @@ const deleteComment = async (req, res, next) => {
     if (!comment) {
       throw new CustomError.NotFoundError(`No comment with id ${commentId}`);
     }
-
-    checkPermissions(req.user, comment.user);
+    checkPermissions(req.user.userId, comment.user_id.toString());
     await comment.remove();
     res.status(StatusCodes.OK).json({ msg: "Success! Comment removed" });
   } catch (err) {
