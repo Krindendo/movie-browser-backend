@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: process.env.CORS_ORIGIN,
   credentials: true,
   optionSuccessStatus: 200,
 };
@@ -56,7 +56,7 @@ const connectToDB = async () => {
   try {
     await connectDB(process.env.MONGO_URI);
   } catch (error) {
-    console.log("ovde", error);
+    console.log("error", error);
   }
 };
 connectToDB();
