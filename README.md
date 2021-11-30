@@ -1,3 +1,9 @@
 ## publish to heroku
 
-`git push heroku main`
+### to launch the application
+
+`npm start`
+
+### to deploy application to heroku
+
+`npm deploy:heroku`

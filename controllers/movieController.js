@@ -9,11 +9,9 @@ const getAllMovies = async (req, res, next) => {
   let movies;
   try {
     if (rating) {
-      movies = await Movie.find({}).limit(limit);
+      movies = await Movie.searchEngine("", 5, 5);
     } else {
-      movies = await Movie.find({
-        "imdb.rating": { $gte: rating },
-      }).limit(limit);
+      movies = await Movie.find({}).limit(limit);
     }
     res.status(StatusCodes.OK).json({ movies });
   } catch (err) {
@@ -51,3 +49,11 @@ module.exports = {
   getSingleMovie,
   createMovie,
 };
+
+/*
+  treba sortirati po 
+  tekstu
+  Najnoviji, Najstariji, po Abecedi, po broju glasova
+  oceni
+  Zandrovi
+*/
