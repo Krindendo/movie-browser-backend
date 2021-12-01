@@ -3,15 +3,26 @@ const { StatusCodes } = require("http-status-codes");
 const CustomError = require("../errors");
 
 const getAllMovies = async (req, res, next) => {
-  let { rating, limit } = req.query;
+  let { title, rating, releasedSort, titleSort, skip } = req.query;
+  if (title) title = parseInt(title);
   if (rating) rating = parseInt(rating);
-  if (limit) limit = parseInt(limit);
+  if (releasedSort) releasedSort = parseInt(releasedSort);
+  if (titleSort) titleSort = parseInt(titleSort);
+  if (skip) skip = parseInt(skip);
+
   let movies;
   try {
     if (rating) {
-      movies = await Movie.searchEngine("", 5, 5);
+      // title, rating, releasedSort, titleSort, skip
+      movies = await Movie.searchEngine(
+        title,
+        rating,
+        releasedSort,
+        titleSort,
+        skip
+      );
     } else {
-      movies = await Movie.find({}).limit(limit);
+      movies = await Movie.find({}).limit(10);
     }
     res.status(StatusCodes.OK).json({ movies });
   } catch (err) {

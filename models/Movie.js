@@ -42,19 +42,24 @@ const MovieSchema = new mongoose.Schema(
   { versionKey: false }
 );
 
-MovieSchema.statics.searchEngine = async function (title, rating, released) {
-  //asc, desc
-  if (released === "desc") {
-    released = -1;
-  } else {
-    released = 1;
-  }
+MovieSchema.statics.searchEngine = async function (
+  title,
+  rating,
+  releasedSort,
+  titleSort,
+  skip
+) {
+  if (releasedSort === "desc") releasedSort = -1;
+  else if (releasedSort === "asc") releasedSort = 1;
+
+  if (titleSort === "desc") titleSort = -1;
+  else if (titleSort === "asc") titleSort = 1;
+
   const titleSearch = {
     $match: {
       title: { $regex: title, $options: "i" },
     },
   };
-
   const orderByRating = {
     $match: {
       "imdb.rating": {
@@ -62,51 +67,59 @@ MovieSchema.statics.searchEngine = async function (title, rating, released) {
       },
     },
   };
-
   const orderByTitle = {
     $sort: {
-      title: released,
+      title: titleSort,
     },
   };
-
   const orderByReleased = {
     $sort: {
-      released: released,
+      released: releasedSort,
     },
   };
-  const result = await this.aggregate([
-    {
-      $search: {
-        index: "default",
-        text: {
-          query: title,
-          path: "title",
-        },
+  const project = {
+    $project: {
+      title: 1,
+      year: 1,
+      fullplot: 1,
+      _id: 1,
+      score: {
+        $meta: "searchScore",
+      },
+      highlight: {
+        $meta: "searchHighlights",
       },
     },
-    {
-      $project: {
-        title: 1,
-        year: 1,
-        fullplot: 1,
-        _id: 1,
-        score: {
-          $meta: "searchScore",
-        },
-        highlight: {
-          $meta: "searchHighlights",
-        },
-      },
-    },
-    {
-      $limit: 5,
-    },
-  ]);
+  };
+  const howMuchToSkip = {
+    $skip: skip,
+  };
+  const limit = {
+    $limit: 10,
+  };
+
+  const content = [];
+  if (title) content.push(titleSearch);
+  if (rating) content.push(orderByRating);
+  if (titleSort) content.push(orderByTitle);
+  if (releasedSort) content.push(orderByReleased);
+  if (skip) content.push(howMuchToSkip);
+  content.push(project);
+  content.push(limit);
+
+  console.log("title", typeof title, title);
+  console.log("rating", typeof rating, rating);
+  console.log("releasedSort", typeof releasedSort, releasedSort);
+  console.log("titleSort", typeof titleSort, titleSort);
+  console.log("skip", typeof skip, skip);
+  console.log("content", content);
+
+  const result = await this.aggregate(content);
 
   try {
-    await this.model("Movie").find(result);
+    await this.model("Movie").find({ result });
   } catch (error) {
-    console.log(error);
+    console.log("aggregate error", error);
   }
 };
 
