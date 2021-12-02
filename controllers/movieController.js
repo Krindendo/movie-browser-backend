@@ -4,16 +4,12 @@ const CustomError = require("../errors");
 
 const getAllMovies = async (req, res, next) => {
   let { title, rating, releasedSort, titleSort, skip } = req.query;
-  if (title) title = parseInt(title);
   if (rating) rating = parseInt(rating);
-  if (releasedSort) releasedSort = parseInt(releasedSort);
-  if (titleSort) titleSort = parseInt(titleSort);
   if (skip) skip = parseInt(skip);
 
   let movies;
   try {
     if (rating) {
-      // title, rating, releasedSort, titleSort, skip
       movies = await Movie.searchEngine(
         title,
         rating,

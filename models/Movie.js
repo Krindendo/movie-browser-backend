@@ -83,12 +83,6 @@ MovieSchema.statics.searchEngine = async function (
       year: 1,
       fullplot: 1,
       _id: 1,
-      score: {
-        $meta: "searchScore",
-      },
-      highlight: {
-        $meta: "searchHighlights",
-      },
     },
   };
   const howMuchToSkip = {
@@ -107,71 +101,11 @@ MovieSchema.statics.searchEngine = async function (
   content.push(project);
   content.push(limit);
 
-  console.log("title", typeof title, title);
-  console.log("rating", typeof rating, rating);
-  console.log("releasedSort", typeof releasedSort, releasedSort);
-  console.log("titleSort", typeof titleSort, titleSort);
-  console.log("skip", typeof skip, skip);
-  console.log("content", content);
-
-  const result = await this.aggregate(content);
-
   try {
-    await this.model("Movie").find({ result });
+    return await this.aggregate(content);
   } catch (error) {
     console.log("aggregate error", error);
   }
 };
 
 module.exports = mongoose.model("Movie", MovieSchema);
-
-// [
-//   [
-//     {
-//       $search: {
-//         index: "default",
-//         text: {
-//           query: "te",
-//           path: "title",
-//         },
-//       },
-//     },
-//     {
-//       $match: {
-//         "imdb.rating": {
-//           $gte: 8,
-//         },
-//       },
-//     },
-//     {
-//       $sort: {
-//         title: -1,
-//       },
-//     },
-//     {
-//       $sort: {
-//         released: -1,
-//       },
-//     },
-//     {
-//       $project: {
-//         title: 1,
-//         year: 1,
-//         fullplot: 1,
-//         _id: 1,
-//         score: {
-//           $meta: "searchScore",
-//         },
-//         highlight: {
-//           $meta: "searchHighlights",
-//         },
-//       },
-//     },
-//     {
-//       $skip: 0,
-//     },
-//     {
-//       $limit: 10,
-//     },
-//   ],
-// ];
