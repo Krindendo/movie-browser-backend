@@ -9,7 +9,7 @@ const getAllMovies = async (req, res, next) => {
 
   let movies;
   try {
-    if (rating) {
+    if (title || rating || releasedSort || titleSort || skip) {
       movies = await Movie.searchEngine(
         title,
         rating,
