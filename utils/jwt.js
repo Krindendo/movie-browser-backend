@@ -16,8 +16,8 @@ const attachCookiesToResponse = ({ res, user }) => {
   res.cookie("token", token, {
     httpOnly: true,
     maxAge: expDate,
-    secure: process.env.NODE_ENV === "production",
-    domain: ".web.app",
+    secure: process.env.NODE_ENV === "production" || true,
+    sameSite: false,
     signed: true,
   });
 };
