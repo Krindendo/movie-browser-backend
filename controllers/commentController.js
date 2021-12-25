@@ -26,7 +26,6 @@ const createComment = async (req, res, next) => {
       movie_id: movieId,
       user_id: userId,
     });
-    console.log("alreadySubmitted", alreadySubmitted);
     if (alreadySubmitted) {
       throw new CustomError.BadRequestError(
         "Already submitted comment for this movie"
