@@ -17,6 +17,7 @@ const attachCookiesToResponse = ({ res, user }) => {
     httpOnly: true,
     maxAge: expDate,
     secure: process.env.NODE_ENV === "production",
+    domain: ".web.app",
     signed: true,
   });
 };
