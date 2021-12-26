@@ -13,7 +13,7 @@ const logger = require("morgan");
 const corsOptions = {
   origin: process.env.CORS_ORIGIN,
   credentials: true,
-  optionSuccessStatus: 200,
+  optionSuccessStatus: 200
 };
 
 // routers
@@ -57,6 +57,7 @@ const connectToDB = async () => {
     await connectDB(process.env.MONGO_URI);
   } catch (error) {
     console.log("error", error);
+    throw error;
   }
 };
 connectToDB();

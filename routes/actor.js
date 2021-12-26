@@ -1,10 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {
-  createActor,
-  getAllActors,
-  getSingleActor,
-} = require("../controllers/actorCotroller");
+const { createActor, getAllActors, getSingleActor } = require("../controllers/actorCotroller");
 const { authenticateUser } = require("../middleware/authentication");
 
 router.route("/").get(getAllActors);

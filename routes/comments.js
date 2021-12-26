@@ -2,12 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { authenticateUser } = require("../middleware/authentication");
 
-const {
-  createComment,
-  getSingleComment,
-  updateComment,
-  deleteComment,
-} = require("../controllers/commentController");
+const { createComment, getSingleComment, updateComment, deleteComment } = require("../controllers/commentController");
 
 router.route("/").post(authenticateUser, createComment);
 

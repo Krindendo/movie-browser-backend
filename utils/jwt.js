@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 
 const createJWT = ({ payload }) => {
   const token = jwt.sign(payload, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_LIFETIME,
+    expiresIn: process.env.JWT_LIFETIME
   });
   return token;
 };
@@ -16,14 +16,14 @@ const attachCookiesToResponse = ({ res, user }) => {
   res.cookie("token", token, {
     httpOnly: true,
     maxAge: expDate,
-    secure: process.env.NODE_ENV === "production" || true,
-    sameSite: false,
-    signed: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: process.env.NODE_ENV === "production" ? "none" : "lex",
+    signed: true
   });
 };
 
 module.exports = {
   createJWT,
   isTokenValid,
-  attachCookiesToResponse,
+  attachCookiesToResponse
 };

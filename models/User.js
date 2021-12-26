@@ -8,21 +8,21 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: [true, "Please provide name"],
       maxlength: 50,
-      minlength: 3,
+      minlength: 3
     },
     email: {
       type: String,
       required: [true, "Please provide email"],
       validate: {
         validator: validator.isEmail,
-        message: "Please provide valid email",
-      },
+        message: "Please provide valid email"
+      }
     },
     password: {
       type: String,
       required: [true, "Please provide password"],
-      minlength: 2,
-    },
+      minlength: 2
+    }
   },
   { versionKey: false }
 );

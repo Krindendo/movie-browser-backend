@@ -7,7 +7,7 @@ const CommentSchema = new mongoose.Schema(
       type: String,
       required: [true, "Please provide name"],
       maxlength: 50,
-      minlength: 3,
+      minlength: 3
     },
     // email: {
     //   type: String,
@@ -19,22 +19,22 @@ const CommentSchema = new mongoose.Schema(
     // },
     movie_id: {
       type: mongoose.Schema.ObjectId,
-      required: [true, "Please provide movie id"],
+      required: [true, "Please provide movie id"]
     },
     user_id: {
       type: mongoose.Schema.ObjectId,
-      required: [true, "Please provide user id"],
+      required: [true, "Please provide user id"]
     },
     text: {
       type: String,
       required: [true, "Please provide comment"],
       maxlength: 300,
-      minlength: 3,
+      minlength: 3
     },
     date: {
       type: Date,
-      default: Date.now,
-    },
+      default: Date.now
+    }
   },
   { versionKey: false }
 );

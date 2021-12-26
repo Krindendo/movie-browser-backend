@@ -39,5 +39,5 @@ const getSingleActor = async (req, res, next) => {
 module.exports = {
   createActor,
   getAllActors,
-  getSingleActor,
+  getSingleActor
 };

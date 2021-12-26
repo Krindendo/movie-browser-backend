@@ -4,51 +4,45 @@ const MovieSchema = new mongoose.Schema(
   {
     genres: {
       type: Array,
-      required: [true, "Please provide genres"],
+      required: [true, "Please provide genres"]
     },
     actors: {
       type: Array,
-      required: [true, "Please provide actors"],
+      required: [true, "Please provide actors"]
     },
     title: {
       type: String,
-      required: [true, "Please provide title"],
+      required: [true, "Please provide title"]
     },
     fullplot: {
       type: String,
-      required: [true, "Please provide fullplot"],
+      required: [true, "Please provide fullplot"]
     },
     released: {
       type: Date,
-      required: [true, "Please provide released"],
+      required: [true, "Please provide released"]
     },
     directors: {
       type: Array,
-      required: [true, "Please provide directors"],
+      required: [true, "Please provide directors"]
     },
     lastupdated: {
       type: Date,
-      required: [true, "Please provide date"],
+      required: [true, "Please provide date"]
     },
     year: {
       type: Number,
-      required: [true, "Please provide year"],
+      required: [true, "Please provide year"]
     },
     imdb: {
       type: Object,
-      required: [true, "Please provide imdb"],
-    },
+      required: [true, "Please provide imdb"]
+    }
   },
   { versionKey: false }
 );
 
-MovieSchema.statics.searchEngine = async function (
-  title,
-  rating,
-  releasedSort,
-  titleSort,
-  skip
-) {
+MovieSchema.statics.searchEngine = async function (title, rating, releasedSort, titleSort, skip) {
   if (releasedSort === "desc") releasedSort = -1;
   else if (releasedSort === "asc") releasedSort = 1;
 
@@ -57,39 +51,39 @@ MovieSchema.statics.searchEngine = async function (
 
   const titleSearch = {
     $match: {
-      title: { $regex: title, $options: "i" },
-    },
+      title: { $regex: title, $options: "i" }
+    }
   };
   const orderByRating = {
     $match: {
       "imdb.rating": {
-        $gte: rating,
-      },
-    },
+        $gte: rating
+      }
+    }
   };
   const orderByTitle = {
     $sort: {
-      title: titleSort,
-    },
+      title: titleSort
+    }
   };
   const orderByReleased = {
     $sort: {
-      released: releasedSort,
-    },
+      released: releasedSort
+    }
   };
   const project = {
     $project: {
       title: 1,
       year: 1,
       fullplot: 1,
-      _id: 1,
-    },
+      _id: 1
+    }
   };
   const howMuchToSkip = {
-    $skip: skip,
+    $skip: skip
   };
   const limit = {
-    $limit: 10,
+    $limit: 10
   };
 
   const content = [];

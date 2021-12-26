@@ -24,12 +24,10 @@ const createComment = async (req, res, next) => {
 
     const alreadySubmitted = await Comment.findOne({
       movie_id: movieId,
-      user_id: userId,
+      user_id: userId
     });
     if (alreadySubmitted) {
-      throw new CustomError.BadRequestError(
-        "Already submitted comment for this movie"
-      );
+      throw new CustomError.BadRequestError("Already submitted comment for this movie");
     }
 
     const comment = await Comment.create(req.body);
@@ -102,5 +100,5 @@ module.exports = {
   updateComment,
   deleteComment,
   getSingleComment,
-  getSingleMovieComments,
+  getSingleMovieComments
 };

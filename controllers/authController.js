@@ -23,9 +23,7 @@ const login = async (req, res, next) => {
   const { email, password } = req.body;
   try {
     if (!email || !password) {
-      throw new CustomError.BadRequestError(
-        "Please provide email and password"
-      );
+      throw new CustomError.BadRequestError("Please provide email and password");
     }
     const user = await User.findOne({ email });
 
@@ -48,10 +46,6 @@ const login = async (req, res, next) => {
 const logout = async (req, res, next) => {
   try {
     res.clearCookie("token");
-    // res.cookie("token", "logout", {
-    //   httpOnly: true,
-    //   expires: new Date(Date.now() + 1000),
-    // });
     res.status(StatusCodes.OK).json({ msg: "user logged out!" });
   } catch (err) {
     next(err);
@@ -61,5 +55,5 @@ const logout = async (req, res, next) => {
 module.exports = {
   register,
   login,
-  logout,
+  logout
 };

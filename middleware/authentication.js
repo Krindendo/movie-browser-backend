@@ -20,9 +20,7 @@ const authorizeRoles = (...roles) => {
   return (req, res, next) => {
     try {
       if (!roles.includes(req.user.role)) {
-        throw new CustomError.UnauthorizedError(
-          "Unauthorized to access this route"
-        );
+        throw new CustomError.UnauthorizedError("Unauthorized to access this route");
       }
       next();
     } catch (error) {

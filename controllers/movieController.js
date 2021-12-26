@@ -10,13 +10,7 @@ const getAllMovies = async (req, res, next) => {
   let movies;
   try {
     if (title || rating || releasedSort || titleSort || skip) {
-      movies = await Movie.searchEngine(
-        title,
-        rating,
-        releasedSort,
-        titleSort,
-        skip
-      );
+      movies = await Movie.searchEngine(title, rating, releasedSort, titleSort, skip);
     } else {
       movies = await Movie.find({}).limit(10);
     }
@@ -54,7 +48,7 @@ const createMovie = async (req, res, next) => {
 module.exports = {
   getAllMovies,
   getSingleMovie,
-  createMovie,
+  createMovie
 };
 
 /*
