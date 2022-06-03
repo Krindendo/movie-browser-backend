@@ -17,7 +17,7 @@ const attachCookiesToResponse = ({ res, user }) => {
     httpOnly: true,
     maxAge: expDate,
     secure: process.env.NODE_ENV === "production",
-    sameSite: process.env.NODE_ENV === "production" ? "none" : "lex",
+    sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
     signed: true
   });
 };

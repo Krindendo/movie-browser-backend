@@ -1,9 +1,13 @@
-## publish to heroku
-
-### to launch the application
+### Launch the application with next command
 
 `npm start`
 
-### to deploy application to heroku
+### Deploy application to Heroku with next command
 
 `npm deploy:heroku`
+
+## Testing application
+
+create .env with next variables:
+
+CORS_ORIGIN, JWT_LIFETIME, JWT_SECRET, MONGO_URI, NODE_ENV
