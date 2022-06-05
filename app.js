@@ -7,6 +7,7 @@ const cors = require("cors");
 const xss = require("xss-clean");
 const rateLimiter = require("express-rate-limit");
 const path = require("path");
+const fs = require("fs");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 
@@ -23,7 +24,7 @@ const commentRouter = require("./routes/comments");
 const actorRouter = require("./routes/actor");
 
 // express
-var app = express();
+const app = express();
 
 // database
 const connectDB = require("./db/connect");
@@ -32,7 +33,15 @@ const connectDB = require("./db/connect");
 const notFoundMiddleware = require("./middleware/not-found");
 const errorHandlerMiddleware = require("./middleware/error-handler");
 
-app.use(logger("dev"));
+const accessLogStream = fs.createWriteStream(path.join(__dirname, "access.log"), { flags: "a" });
+app.use(
+  logger("common", {
+    stream: accessLogStream,
+    skip: function (req, res) {
+      return res.statusCode > 400;
+    }
+  })
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser(process.env.JWT_SECRET));
