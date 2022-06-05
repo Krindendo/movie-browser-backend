@@ -42,7 +42,15 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(helmet());
 app.use(cors(corsOptions));
 app.use(xss());
-app.use(rateLimiter({ windowMs: 60 * 1000, max: 150 }));
+app.use(
+  rateLimiter({
+    windowMs: 10 * 60 * 1000,
+    max: 150,
+    message: "Too many requests",
+    standardHeaders: true,
+    legacyHeaders: false
+  })
+);
 
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/movie", movieRouter);
